@@ -1,4 +1,5 @@
-![grafana-downdetector-problems](https://github.com/botinhadigao/grafana-downdt/assets/89220727/73c5a1b7-f1f1-4abe-b4ac-36ae1fa9e05c)// Totalmente funcional no zabbix V6 e V7(alpha), testado na versão 6.4.10 e 6.5.1
+// Totalmente funcional no zabbix V6 e V7(alpha), testado na versão 6.4.10 e 6.5.1
+![grafana-downdetector-problems](https://github.com/botinhadigao/grafana-downdt/assets/89220727/73c5a1b7-f1f1-4abe-b4ac-36ae1fa9e05c)
 
 
 # Copie os arquivos para o diretório de scripts do Zabbix (/usr/lib/zabbix/externalscripts/)
