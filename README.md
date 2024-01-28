@@ -2,12 +2,13 @@
 
 
 
-# Copie os arquivos para o diretório de scripts do Zabbix (/usr/lib/zabbix/externalscripts/)
+# Copie os arquivos para o diretório de scripts do Zabbix
+(/usr/lib/zabbix/externalscripts/)
 downdetector.py
 downdetectorDiscovery.py
 downdetectorlist.list
 
-cd /usr/lib/zabbix/externalscripts/
+cd (/usr/lib/zabbix/externalscripts/)
 chmod +x downdetector.py
 chmod +x downdetectorDiscovery.py
 
