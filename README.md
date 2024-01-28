@@ -28,8 +28,8 @@ pip3 install cloudscraper
 
 # Importe o json no Grafana, 
 as imagens do JSON do grafana estão referenciadas para o "https://github.com/botinhadigao/grafana-downdt/tree/main/icones-png" mas podem ser anexadas na maquina onde está rodando o server
-![Uploading ![grafana-userview](https://github.com/botinhadigao/grafana-downdt/assets/89220727/45a6871c-ceb4-4957-9e93-73287a9a38c1)
-grafana-downdetector-problems.png…]()
+![grafana-userview](https://github.com/botinhadigao/grafana-downdt/assets/89220727/f1dfaca1-b652-4faf-bdb3-75d23372bf57)
+![grafana-downdetector-problems](https://github.com/botinhadigao/grafana-downdt/assets/89220727/b8d47b9f-c2ae-4248-bed9-96602b145b14)
 
 ![grafana-downdetector-problems](https://github.com/botinhadigao/grafana-downdt/assets/89220727/73c5a1b7-f1f1-4abe-b4ac-36ae1fa9e05c)
 
