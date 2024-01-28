@@ -1,5 +1,5 @@
 // Totalmente funcional no zabbix V6 e V7(alpha), testado na versão 6.4.10 e 6.5.1
-![grafana-downdetector-problems](https://github.com/botinhadigao/grafana-downdt/assets/89220727/73c5a1b7-f1f1-4abe-b4ac-36ae1fa9e05c)
+
 
 
 # Copie os arquivos para o diretório de scripts do Zabbix (/usr/lib/zabbix/externalscripts/)
@@ -31,16 +31,11 @@ as imagens do JSON do grafana estão referenciadas para o "https://github.com/bo
 ![Uploading ![grafana-userview](https://github.com/botinhadigao/grafana-downdt/assets/89220727/45a6871c-ceb4-4957-9e93-73287a9a38c1)
 grafana-downdetector-problems.png…]()
 
+![grafana-downdetector-problems](https://github.com/botinhadigao/grafana-downdt/assets/89220727/73c5a1b7-f1f1-4abe-b4ac-36ae1fa9e05c)
 
 
-# Copie os icones para esse diretorio
 
-"/var/www/html/public/img/icon-downdetector/"
-ou
-"/usr/share/grafana/public/img/icon-downdetector/"
 
-# No Grafana
-"<center><img src="/public/img/icon-downdetector/logo.png" width="250px" /></center>"
 
 
 
