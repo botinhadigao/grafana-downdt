@@ -31,6 +31,9 @@ zbx_export_hosts.yaml
 
 # Importe o json no Grafana, 
 as imagens do JSON do grafana estão referenciadas para o "https://github.com/botinhadigao/grafana-downdt/tree/main/icones-png" mas podem ser anexadas na maquina onde está rodando o server
+downdetector-problemas-1706479330520.json
+DownDetector-1706479318668.json
+
 ![grafana-userview](https://github.com/botinhadigao/grafana-downdt/assets/89220727/f1dfaca1-b652-4faf-bdb3-75d23372bf57)
 ![grafana-downdetector-problems](https://github.com/botinhadigao/grafana-downdt/assets/89220727/b8d47b9f-c2ae-4248-bed9-96602b145b14)
 
