@@ -1,0 +1,15 @@
+zabbix_export:
+  version: '6.4'
+  host_groups:
+    - uuid: 60cd249c3d7f47d388a58f1f25c6cb6d
+      name: DOWNDETECTOR
+  hosts:
+    - host: DOWNDETECTOR
+      name: DOWNDETECTOR
+      templates:
+        - name: 'Template DownDetector Discovery'
+      groups:
+        - name: DOWNDETECTOR
+      interfaces:
+        - interface_ref: if1
+      inventory_mode: DISABLED

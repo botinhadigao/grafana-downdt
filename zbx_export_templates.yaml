@@ -1,0 +1,41 @@
+zabbix_export:
+  version: '6.4'
+  template_groups:
+    - uuid: 7df96b18c230490a9a0a9e2307226338
+      name: Templates
+  templates:
+    - uuid: fac263af3076479f8e904d1d11813781
+      template: 'Template DownDetector Discovery'
+      name: 'Template DownDetector Discovery'
+      groups:
+        - name: Templates
+      discovery_rules:
+        - uuid: 896ca958e357408ea46ca4c4b06e1954
+          name: 'Descoberta Site'
+          type: EXTERNAL
+          key: downdetectorDiscovery.py
+          delay: 5m
+          lifetime: 7d
+          item_prototypes:
+            - uuid: 408db8d9ce3d4cd59166708eb2e6ebd2
+              name: '{#SITE_NOME}'
+              type: EXTERNAL
+              key: 'downdetector.py[{#SITE_ID}]'
+              delay: 5m
+              history: 7d
+              trends: 7d
+              tags:
+                - tag: Application
+                  value: Site
+      valuemaps:
+        - uuid: e101652511cf4a3eac8063c2b8566cfd
+          name: 'Status Downdetector'
+          mappings:
+            - value: '0'
+              newvalue: Error
+            - value: '1'
+              newvalue: Estável
+            - value: '2'
+              newvalue: Intermitência
+            - value: '3'
+              newvalue: Instável
