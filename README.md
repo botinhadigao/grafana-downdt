@@ -20,6 +20,8 @@ pip3 install requests
 pip3 install cloudscraper
 
 # Importe o Template e o Host
+zbx_export_templates.yaml
+zbx_export_hosts.yaml
 
 ![zabbix-alarmes](https://github.com/botinhadigao/grafana-downdt/assets/89220727/996ce500-db60-4bb5-ac71-76b40a6f6acf)
 ![trigger_discovery](https://github.com/botinhadigao/grafana-downdt/assets/89220727/4821848b-246c-498e-8bff-be31af1b8d20)
